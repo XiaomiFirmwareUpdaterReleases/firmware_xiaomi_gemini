@@ -1,0 +1,26 @@
+sudo: required
+
+before_install:
+  - sudo apt-get -qq install wput
+  - git clone https://github.com/XiaomiFirmwareUpdater/firmware_xiaomi_gemini.git -b weekly $HOME/XFU/
+  - cd $HOME/XFU/ && wget -q https://github.com/XiaomiFirmwareUpdater/mi-firmware-updater/raw/weekly/script.sh
+
+script:
+  - chmod +x device.sh && chmod +x script.sh
+  - ./device.sh
+
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key: "$GIT_OAUTH_TOKEN_XFU"
+  file_glob: true
+  file: $HOME/XFU/*.zip
+  on:
+    tags: false
+    repo: XiaomiFirmwareUpdater/firmware_xiaomi_gemini
+    branch: weekly
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
