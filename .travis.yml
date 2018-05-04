@@ -1,7 +1,7 @@
 sudo: required
 
 before_install:
-  - sudo apt-get -qq install wput
+  - sudo apt-get -qq install wput sshpass
   - git clone https://github.com/XiaomiFirmwareUpdater/firmware_xiaomi_gemini.git -b weekly $HOME/XFU/
   - cd $HOME/XFU/ && wget -q https://github.com/XiaomiFirmwareUpdater/mi-firmware-updater/raw/weekly/script.sh
 
