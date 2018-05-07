@@ -24,3 +24,7 @@ notifications:
   email:
     on_success: never
     on_failure: always
+
+branches:
+  except:
+    - /^(?i:untagged)-.*$/
