@@ -30,3 +30,5 @@ notifications:
 branches:
   except:
     - /^(?i:untagged)-.*$/
+    - /^(?i:weekly)-.*$/
+    - /^(?i:stable)-.*$/
