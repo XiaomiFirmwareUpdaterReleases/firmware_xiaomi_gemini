@@ -1,6 +1,6 @@
 ## Xiaomi Firmware Packages For Mi 5 (gemini)
 
-#### Downloads: [![DownloadSF](https://img.shields.io/badge/Download-SourceForge-orange.svg)](https://sourceforge.net/projects/xiaomi-firmware-updater/files/Developer) [![DownloadAFH](https://img.shields.io/badge/Download-AndroidFileHost-brightgreen.svg)](https://www.androidfilehost.com/?w=files&flid=241903)
+#### Downloads: [![Download](https://img.shields.io/badge/Downloads-Here-orange.svg)](https://xiaomifirmwareupdater.github.io/#weekly)
 
 | ID | MIUI Name | Device Name | Codename |
 | --- | --- | --- | --- |
