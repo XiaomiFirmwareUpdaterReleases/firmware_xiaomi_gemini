@@ -15,3 +15,7 @@
 
 #### by [Xiaomi Firmware Updater](https://github.com/XiaomiFirmwareUpdater)
 #### Developer: [xiaomi-firmware-updater](https://github.com/xiaomi-firmware-updater)
+
+Firmware packages for `gemini`, extracted from official Xiaomi ROMs.
+
+All firmware versions, mirrors and changelogs for this device: https://xmfirmwareupdater.com/firmware/gemini/
